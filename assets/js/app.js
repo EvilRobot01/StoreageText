@@ -8,6 +8,8 @@ function eventListeners(){
     document.querySelector('#form').addEventListener('submit', newMessage);
 
     tweetList.addEventListener('click', removeTweet);
+
+    document.addEventListener('DOMContentLoaded', localStorageOnLoad);
 }
 
 
